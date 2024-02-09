@@ -1,0 +1,21 @@
+.filtro-preco {
+    border-radius: 10px;
+    padding: 25px;
+    background: #E6EAF8;
+    
+}
+
+.filtro-preco-wrapper {
+    padding: 25px;
+    .filters-group-title {
+        font-size: 22px;
+        color: #001E60;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .MuiSlider-markLabel[data-index="1"] {
+        transform: translateX(-40px);
+    }
+}

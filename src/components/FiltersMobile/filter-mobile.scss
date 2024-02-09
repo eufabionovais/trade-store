@@ -1,0 +1,44 @@
+.filter-mobile {
+    button {
+        background: none;
+        border: none;
+    }
+    .toggle-menu-icon {
+        color: #fff;
+        width: 40px;
+        height: 40px;        
+    }
+
+    .btn-filtrar {
+        color: #44B3FF;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        img {
+            margin-left: 5px;
+        }
+        &:hover {
+            background: transparent;
+        }
+    }
+}
+
+.offcanvas-filtros-mobile {
+
+    .offcanvas-header {
+        background: #001E60;
+        color: #fff;
+        justify-content: flex-start;
+        svg {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .btn-close {
+            display: none;
+        }
+    }
+    
+    .offcanvas-body {
+        padding: 0;
+    }
+}

@@ -1,0 +1,58 @@
+.greeting-logged-out {
+    display: none;
+    align-items: center;
+    @media screen and (min-width: 1220px) {
+        display: flex;
+    }    
+    .icon {
+        padding-top: 10px;
+        padding-right: 10px;
+        align-self: flex-start;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    a {
+        color: #fff;
+    }
+    .user-info {
+        display: flex;
+    }
+}
+.account-dropdown {
+    button {
+        background: transparent;
+        border: none;
+        padding: 0 10px;
+        font-size: 16px;
+        &:hover,
+        &:focus,
+        &:active {
+            background: transparent !important;
+        }
+    }
+    a {
+
+        color: #083598;
+        &:hover,
+        &:focus,
+        &:active {
+            color: #083598;
+        }
+    }
+    .dropdown-toggle::after {
+        background: url("../../assets/img/chrevron-down.png") no-repeat 0 center;
+
+        border: none;
+        display: block;
+        width: 20px;
+        height: 20px;
+
+    }
+}
+
+.logged-in {
+     a {
+        color: #40A4E9;
+    }
+}

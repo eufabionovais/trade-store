@@ -1,0 +1,225 @@
+.products-details-slider-wrapper {
+    position: relative;
+    .favorite {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        background: #B1CCD5;
+        border-radius: 50%;
+        z-index: 9;
+        border: none;
+        .icon {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #001E60;
+        }
+    }    
+}
+
+.product-details-slider {
+    position: relative;
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+
+    .slide {
+        background: #EAF0F5;
+    }
+    
+    .slick-slide img {
+        margin: 0 auto;
+       
+    }    
+
+}
+
+.product-details-thumbs {
+    margin-top: 10px;
+
+    .slick-slide {
+        background: #EAF0F5;
+        padding: 10px;      
+    } 
+
+    img {
+        max-width: 100%;
+        margin: 0 auto;       
+    }
+}
+
+
+
+.product-sold-label {
+    background: #FEC601;
+    width: 120px;
+    height: 20px;
+    color: #001E60;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.product-title {
+    color: #001E60;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-ref {
+    color: #001E60;
+    font-size: 14px;
+}
+
+.shipping-info {
+    background: #001E60;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: auto;
+    .highlight {
+        color: #00B9FF;
+    }
+}
+
+.select-wrapper {
+    width: 100%;
+    label {
+        font-size: 14px;
+        color: #9DAFEE;
+        margin-bottom: 5px;
+    }
+}
+
+.product-info {
+    display: flex;
+    border-top: solid 1px #001E60;
+    border-bottom: solid 1px #001E60;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    flex-direction: column;
+    .sold-by {
+        margin-top: 10px;
+        font-size: 12px;
+        font-style: italic;
+        color: #001E60;
+        span {
+            color: #9DAFEE;
+        }
+    }
+}
+
+.product-actions {
+    display: flex;
+    padding-top: 75px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    .incremental-field {
+        grid-area: actions;
+    }
+}
+
+.product-price {
+    color: #EA7317;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-bottom: 0;
+    grid-area: price;
+    .currency-symbol,
+    .cents {
+        font-size: 25px;
+    }
+    .currency-symbol {
+        align-self: flex-end;
+        margin-bottom: 12px;
+        margin-right: 3px;
+    }
+    .cents {
+        align-self: flex-start;
+        margin-top: 12px;
+    }
+
+
+
+}
+
+
+.bt-buy {
+    background: #52BFC2;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    display: block;
+    border-radius: 10px;
+    padding: 14px 30px;
+    flex: 1;
+    transition: 0.3s;
+    grid-area: buy;
+    &:hover {
+        color: #001E60;
+    }
+}
+
+.form-select {
+    border: none;
+    border-style: solid;
+    border-width: 2px 0;
+    border-color: #001E60;
+    border-radius: 0;
+    color: #001E60;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    .product-details-thumbs  {
+        display: none;
+    }
+
+    .rating {
+        margin: 20px auto 0;
+    }
+
+    .product-sold-label {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product-title, .product-ref, .form-label {
+        text-align: center;
+    }
+    .shipping-info {
+        margin-top: 40px;
+    }
+    .product-info {
+        .sold-by {
+            text-align: center;
+            span {
+                text-align: center;
+                display: block;
+            }
+        } 
+    }
+    .product-actions {
+        padding-top: 0;
+    }
+}

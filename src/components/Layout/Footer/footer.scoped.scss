@@ -1,0 +1,134 @@
+.main-footer {
+    background: #E6EAF8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media screen and (min-width: 1220px) {
+        padding-top: 50px;
+        padding-bottom: 120px;        
+    }
+}
+
+.credits {
+    background: #DAE1F9;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .logo {
+        height: 33px
+    }
+}
+
+h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #001E60;
+    font-weight: 600;
+}
+p {
+    margin-bottom: 0;
+    color: #7694B4;
+}
+
+.benefits {
+    border-bottom: solid 1px #92B8E2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+
+
+    @media screen and (min-width: 1220px) {
+        [class*=col] {
+            padding-left: 80px;
+            padding-right: 80px;
+            &:not(:last-child) {
+                border-right: solid 1px #92B8E2;
+            }
+        }
+    }
+
+
+    .media {
+        text-align: center;
+    }
+    h5 {
+        position: relative;
+        &:before {
+            display: block;
+            content: "";
+            width: 100%;
+            max-width: 170px;
+            height: 7px;
+            background: #17B0D9;
+            margin: 0 auto 15px;
+            box-shadow:  inset 8px 0 0 0 #17B0D9, inset 15px 0 0 0 #E6EAF8;
+        }
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    @media screen and (min-width: 1220px) {
+        justify-content: flex-start;
+    }
+    a {
+        padding: 20px;
+    }
+}
+
+.hide-mobile {
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+}
+
+
+.sitemap {
+    padding-top: 40px;
+
+    @media screen and (min-width: 1220px) {
+        [class*=col] {
+            padding-left: 40px;
+            padding-right: 40px;    
+        }
+    }
+
+}
+
+.contact {
+    text-align: center;
+    @media screen and (min-width: 1220px) {
+        text-align-last: left;
+    }
+    .content {
+        padding-left: 20px;
+        margin-top: 25px;
+    }
+}
+
+.list {
+    +  * {
+        margin-top: 30px;
+    }
+    li {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+    a {
+        font-size: 16px;
+        color: #7694B4;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    img {
+        margin-bottom: 10px;
+        display: block;
+    }
+}

@@ -1,0 +1,83 @@
+.offcanvas-mini-cart {
+    min-width: 375px;
+    .offcanvas-header {
+        background: #fff;
+        color: #001E60;
+        border-bottom: solid 1px #C1C9DC;
+        padding-top: 70px;
+        h3 {
+            font-size: 30px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            margin-bottom: 0;
+            .total-itens {
+                display: block;
+                font-size: 16px;
+                font-weight: normal;
+            }
+        }
+        .btn-close {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+    }
+    .offcanvas-body {
+        padding: 0;        
+    }
+
+    .offcanvas-footer {
+        padding: 40px 20px 10px;
+        border-top: solid 1px #C1C9DC;
+        .total {
+            padding: 15px 20px;
+            background: #E6EAF8;
+            border-radius: 10px;
+            color: #001E60;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .btn-buy {
+            height: 60px;
+            padding-left: 20px;
+            padding-right: 20px; 
+            font-size: 22px;
+            font-weight: 900;
+            border: none;
+            border-radius: 10px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 25px;
+            transition: 0.3s;
+            &.btn-buy-primary {
+                color: #fff;
+                background: #52BFC2;
+                &:hover {
+                    background: #001E60;
+                }                
+            }
+            &.btn-buy-block {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .btn-link {
+            background: transparent;
+            height: 40px;
+            padding-left: 20px;
+            padding-right: 20px; 
+            font-weight: 900;  
+            font-size: 16px;  
+            border: none;   
+            text-transform: uppercase;
+            text-align: center;
+            display: block;   
+            width: 100%;
+            margin-top: 15px;  
+        }
+    }
+    
+}

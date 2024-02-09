@@ -1,0 +1,36 @@
+.list-menu {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    .list-group-item {
+        padding: 0;
+        border-color: #C1C9DC;
+        a {
+            color: #001E60;
+            text-decoration: none;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+            &.active,
+            &:hover {
+                color: #fff;
+                background: #001E60;
+                .icon {
+                    color: #fff;
+                }
+            } 
+        }
+
+        .icon {
+            font-size: 30px;
+            margin-right: 10px;
+            color: #001E60;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+
+        }
+    }
+}

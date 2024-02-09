@@ -1,0 +1,42 @@
+.filter-mobile {
+
+    .toggle-menu-icon {
+        color: #fff;
+        width: 40px;
+        height: 40px;        
+    }
+
+    .btn-filtrar {
+        color: #44B3FF;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        img {
+            margin-left: 5px;
+        }
+        &:hover {
+            background: transparent;
+        }
+    }
+}
+
+.offcanvas-minha-conta-mobile {
+
+    .offcanvas-header {
+        background: #001E60;
+        color: #fff;
+        justify-content: flex-start;
+        border-bottom: solid 1px #7583FF;
+        svg {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .btn-close {
+            display: none;
+        }
+    }
+    
+    .offcanvas-body {
+        padding: 0;
+    }
+}

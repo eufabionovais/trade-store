@@ -1,0 +1,76 @@
+.quem-somos__menu-item {
+    border: solid 1px #92B8E2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        text-decoration: none; 
+        color: #001E60;       
+    }
+
+}
+
+.quem-somos__menu-item__titulo {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.quem-somos__icon-wrapper {
+    min-width: 55px;
+    height: 55px;
+    border: solid 2px #001E60;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+.quem-somos__icon {
+    display: block;
+    font-size: 20px;
+    color: #39AFFF;
+}
+
+
+.quem-somos__arrow-wrapper {
+    margin-left: auto;
+    .quem-somos__icon {
+        font-size: 30px;
+        color: #001E60;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+
+    .quem-somos__menu-item {
+        padding: 8px 10px;
+    }
+
+    .quem-somos__menu-item__titulo {
+        font-size: 14px;
+    }
+
+    .quem-somos__icon-wrapper {
+        min-width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+
+    .quem-somos__arrow-wrapper {
+        .quem-somos__icon {
+            font-size: 20px;
+        }
+    }    
+
+}

@@ -1,0 +1,25 @@
+.banner-slider {
+    .carousel-indicators {
+        button {
+            width: 13px;
+            height: 13px;
+            background: #fff;
+            border-radius: 50%;
+            border: none;
+            opacity: 1;
+            transition: 0.3s;
+            &.active {
+                background: #52BFC2;
+                border-radius: 10px;
+                width: 50px;
+            }
+        }
+    }
+    picture {
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 100%;
+        }
+    }
+}

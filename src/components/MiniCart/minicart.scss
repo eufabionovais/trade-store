@@ -1,0 +1,70 @@
+.mini-cart {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;    
+    .icon {
+        position: relative;
+        font-size: 35px;
+        a {
+            text-decoration: none;
+        }
+    }
+    .counter {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #40A4E9;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        right: -15px;
+        top: 0;
+        pointer-events: none;
+    }    
+}
+
+
+
+[data-theme='dark-blue'] {
+    .icon {
+        color: #001E60;
+    }
+    .counter {
+        background-color: #00BFC4;
+        color: #fff;
+    }
+}
+
+[data-theme='light-blue'] {
+    .counter {
+        background-color: #00BFC4;
+        color: #fff;
+    }
+}
+
+[data-theme='white'] {
+    .icon {
+        color: #fff;
+    }
+    .counter {
+        background: #40A4E9;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .mini-cart {
+        .icon {
+            font-size: 30px;
+            margin-right: 10px;
+        }
+        .counter {
+            width: 22px;
+            height: 22px;
+            right: -5px;
+        }
+    }
+}
+

@@ -1,0 +1,53 @@
+$primary: #52BFC2;
+$secondary: #FDC503;
+$theme-main-color: #001E60;
+
+
+$font-family-sans-serif:  'Lato', sans-serif;
+$body-bg: #f1f1f1;
+$body-color: $theme-main-color;
+
+
+$input-bg: #fff;
+$input-disabled-bg:#EBF2F9;
+// $input-disabled-bg:                     $gray-200 !default;
+// $input-disabled-border-color:           null !default;
+
+
+
+$input-padding-y: 13px;
+$input-padding-y-sm: 4px;
+$input-padding-x: 20px;
+$input-font-size: 21px;
+$input-font-size-sm: 14px;
+$input-placeholder-color: #B4BCCC;
+$input-border-color: $theme-main-color;
+
+$form-label-color: $theme-main-color;
+$form-label-font-size: 18px;
+$form-label-font-style: italic;
+
+$form-check-label-color: $theme-main-color;
+
+$form-check-input-checked-color:          #fff;
+$form-check-input-checked-bg-color:       $theme-main-color;
+$form-check-input-checked-border-color:   $theme-main-color;
+
+
+$btn-padding-y: 17px;
+$btn-font-size: 22px;
+$btn-padding-y-sm: 4px;
+$btn-font-size-sm: 14px;
+
+
+
+
+
+
+$container-max-widths: (
+  sm: 640px,
+  md: 980px,
+  lg: 1250px,
+  xl: 1380px,
+  xxl: 1500px
+) !default;

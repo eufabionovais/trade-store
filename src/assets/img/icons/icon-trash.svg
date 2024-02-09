@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.234" height="22.26" viewBox="0 0 20.234 22.26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20.234" height="22.26" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_5981684251543238936" data-name="5981684251543238936" clip-path="url(#clip-path)">
+    <g id="_5981684251543238936-2" data-name="5981684251543238936" transform="translate(1 1)">
+      <path id="Caminho_3702" data-name="Caminho 3702" d="M3,6H21.234" transform="translate(-3 -1.948)" fill="none" stroke="#c7c7c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Caminho_3703" data-name="Caminho 3703" d="M19.182,6.052V20.234a2.026,2.026,0,0,1-2.026,2.026H7.026A2.026,2.026,0,0,1,5,20.234V6.052m3.039,0V4.026A2.026,2.026,0,0,1,10.065,2h4.052a2.026,2.026,0,0,1,2.026,2.026V6.052" transform="translate(-2.974 -2)" fill="none" stroke="#c7c7c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Linha_168" data-name="Linha 168" y2="6.428" transform="translate(6.818 9.021)" fill="none" stroke="#c7c7c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Linha_169" data-name="Linha 169" y2="6.428" transform="translate(10.675 9.021)" fill="none" stroke="#c7c7c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

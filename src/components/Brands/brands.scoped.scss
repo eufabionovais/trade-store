@@ -1,0 +1,58 @@
+.brands-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    gap: 20px;
+    max-height: 1000px;
+    transition: max-height 0.8s ease-out;
+    
+    &.closed {
+        max-height: 210px;
+        overflow: hidden;
+
+    }
+
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
+
+.toggle-content {
+    font-size: 18px;
+    text-align: center;
+    color: #001E60;
+    margin-top: 60px;
+    margin-bottom: -55px;
+
+    p {
+        margin-bottom: 8px;
+    }
+
+    button {
+        background-image: url(../../assets/img/arrow-down.png);
+        background-position: center 25px;
+        background-repeat: no-repeat;
+        text-indent: -9999px;;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        // box-shadow: 0 2px 0 0 rgba(255,255,255,1);
+        box-shadow: 0 2px 0 0 rgba(255,255,255,1), 0 7px 7px 0 rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        &.opened {
+            background-image: url(../../assets/img/arrow-up.png);
+            background-position: center;
+        }
+    }
+}

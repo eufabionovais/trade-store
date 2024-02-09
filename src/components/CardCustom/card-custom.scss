@@ -1,0 +1,38 @@
+
+.custom-card {
+    position: relative;
+    border-radius: 10px;
+    border: solid 1px #92B8E2;
+    &__header {
+        display: flex;
+        align-items: center;
+        padding: 10px 12px;
+    }
+    &__section_group {
+        border-top: solid 1px #92B8E2;
+    }
+    &__section {
+        padding: 10px 12px;;
+        &:not(:only-of-type){
+            border-bottom: solid 1px #92B8E2;
+        }
+        &:only-of-type {
+            border-bottom: solid 1px #92B8E2;
+        }
+    }
+    &__footer {
+        display: flex;
+        align-items: center;
+        padding: 10px 12px; 
+        margin-top: -1px;       
+    }
+
+    &.content-only {
+        .custom-card__section_group,
+        .custom-card__section:only-of-type {
+            border: 0;
+        }
+    }
+}
+
+

@@ -1,0 +1,67 @@
+.main-nav-mobile {
+    button {
+        background: none;
+        border: none;
+    }
+    .toggle-menu-icon {
+        color: #fff;
+        width: 40px;
+        height: 40px;        
+    }
+}
+
+
+
+
+.accordion-menu-mobile {    
+    .accordion-button,
+    .accordion-item {
+        background: transparent;
+    }
+
+    .accordion-button {
+        font-weight: bold;
+        color: #001E60;
+    }
+}
+
+.offcanvas-menu-mobile {
+
+    .offcanvas-header {
+        background: #001E60;
+        color: #fff;
+        .greeting-logged-out {
+            display: flex;
+        }
+        .btn-close {
+            display: none;
+        }
+    }
+    
+    .offcanvas-body {
+        padding: 0;
+        .submenu {
+            margin-bottom: 20px;
+            p {
+                margin-bottom: 5px;
+                color: #001E60;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            a {
+                display: block;
+                font-size: 16px;
+                font-weight: normal;
+                color: #001E60;
+                padding: 3px 0;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline  ;
+                }
+            }
+            .show-more {
+                color: #40A4E9;
+            }
+        }
+    }
+}

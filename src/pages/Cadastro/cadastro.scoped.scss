@@ -1,0 +1,32 @@
+@import "../../assets/scss/variables";
+
+.page-title {
+    font-size: 30px;
+    margin: 20px 0 30px; 
+}
+
+fieldset {
+    + fieldset {
+        margin-top: 20px;
+    }
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: $theme-main-color;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &:after {
+        background: #17B0D9;
+        flex: 1;
+        height: 6px;
+        display: inline-flex;
+        margin-left: 15px;
+        margin-top: 2px;
+        content: "";
+        box-shadow: inset 10px 0 0 #17B0D9, inset 20px 0 0 #fff;
+    }
+}

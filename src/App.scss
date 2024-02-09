@@ -1,0 +1,314 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600;700&display=swap');
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #001E60;
+}
+
+
+.offcanvas-backdrop.show {
+  background: #001E60
+}
+
+.modal.show {
+  background: rgba(0,30,96, 0.7)
+}
+
+.modal-header {
+  justify-content: flex-start;
+  border-bottom: solid 1px #C1C9DC;
+  .modal-title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+.padded-container {
+  padding: 30px;
+}
+
+
+.btn[disabled] {
+  background: #D0D6EB !important;
+  border: #D0D6EB !important;
+  color: #fff
+}
+
+.button {
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  padding: 14px 25px;
+  transition: 0.4s;
+  &.button-sm {
+    padding: 4px 15px;
+    font-size: 12px;    
+  }
+  &.button-md {
+    padding: 7px 25px;
+    font-size: 18px;
+  }
+  &.button-lg {
+    padding: 20px 35px;
+    font-size: 22px;    
+  }
+  &.disabled,
+  &:disabled {
+    background: #D0D6EB;
+    color: #fff;
+  }
+}
+
+.button-white {
+  background: transparent;
+  color: #013B7C;
+  text-decoration: underline;
+}
+
+.button-yellow {
+  background: #FDC503;
+  color: #013B7C;
+  &:hover {
+    background-color: lighten(#FDC503, 15%);
+  }
+}
+
+
+.button-light-blue {
+  background: #52BFC2;
+  color: #fff;
+  &:hover {
+    background-color: darken(#52BFC2, 15%);
+  }
+}
+
+.button-dark-blue {
+  background: #001E60;
+  color: #fff;
+  &:hover {
+    background-color: lighten(#001E60, 15%);
+  }
+}
+
+
+.link-light-blue {
+  color: #44B3FF;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 14px;
+  &:hover {
+    color: lighten(#44B3FF, 15%)
+  }
+}
+
+
+.block-title {
+  font-size: 15px;
+  color: #001E60;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.container-content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+
+
+.container-header {
+  padding: 30px 30px 20px;
+  border-bottom: solid 1px #C1C9DC;
+  h3 {
+      font-size: 15px;
+      color: #001E60;
+      font-weight: bold;  
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      &.xl {
+          font-size: 22px;
+              font-family: "Montserrat", sans-serif;
+      } 
+
+  } 
+  p {
+      color: #001E60;
+      margin-bottom: 0;
+  }
+  .container-header__actions {
+    display: flex;
+    align-items: center
+  }
+}
+
+.MuiRating-root {
+  &.rating {
+    &.Mui-disabled {
+      opacity: 1;
+    }
+  }
+}
+
+
+.MuiPagination-ul {
+  li:last-child {
+      button {
+          border: none;
+          display: inline-flex;
+          width: 100px;
+          background: transparent;
+          justify-content: space-between;
+          flex-direction: row-reverse;
+          align-items: center;    
+          font-size: 18px;  
+          color: #001E60;  
+
+          &:hover {
+              color: #fff;
+          }        
+          span {
+              display: block;
+              &:before {
+                  display: block;
+                  content: "Próximo";
+              }
+          }
+      }
+  }
+}
+
+.menu-minha-conta-mobile {
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 540px) {
+    .container-header {
+      padding: 20px 15px 10px;
+    }
+  .container-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cart-page__total-items {
+    display: block;
+    top: 0;
+    margin-top: 10px;
+  }
+
+  .MuiButtonBase-root {
+    &.MuiPaginationItem-root {
+      max-width: 20px;
+      height: 30px;
+    }
+   
+  }
+
+  .MuiPagination-ul li:last-child button span:before {
+    content: ""
+  }
+  
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #001E60;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #001E60;
+}
+
+
+.regulamentos-accordion {
+  .accordion-item {
+    margin-top: 20px;
+    border: none;
+  }
+  .accordion-header {
+    button {
+      background: #fff;
+      border: solid 1px #92B8E2;
+      border-radius: 10px;
+      color: #39AFFF;
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: bold;
+      &:focus {
+        box-shadow: none;
+      }
+      &[aria-expanded='true'] {
+        border-bottom: none;
+        box-shadow: none;
+        border-radius: 10px 10px 0 0;
+      }
+    }
+  }
+  .accordion-collapse {
+    border: solid 1px #92B8E2;
+    border-radius: 0 0 10px 10px;
+    background: #fff;
+    margin-top: -1px;
+    border-top: none;
+    padding-top: 0;
+  }
+  .accordion-body {
+    background: transparent;
+    font-size: 16px;
+    color: #001E60;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .regulamentos-accordion {
+    .accordion-item {
+      margin-top: 10px;
+    }
+    .accordion-header {
+      button {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+ 
+
+
+@import "assets/scss/custom.scss";

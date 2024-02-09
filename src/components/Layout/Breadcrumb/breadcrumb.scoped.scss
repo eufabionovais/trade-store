@@ -1,0 +1,17 @@
+.MuiBreadcrumbs-root {
+    color: #001E60;
+    margin-top: 40px;
+    a {
+        font-size: 15px;
+        color: #44B3FF;
+    }  
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .MuiBreadcrumbs-root {
+        display: none;
+    }
+}

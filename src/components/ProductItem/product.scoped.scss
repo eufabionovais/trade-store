@@ -1,0 +1,126 @@
+.product {
+    border: solid 1px #92B8E2;
+    padding: 35px;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    > * + * {
+        margin-top: 10px;
+    }
+}
+
+.sale-label {
+    width: 56px;
+    height: 66px;
+    position: absolute;
+    top: -1px;
+    right: 35px;
+    background: url(../../assets/img/sale-label.png) no-repeat;
+    
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-weight: normal;
+    span {
+        font-size: 18px;
+        position: relative;
+        top: 2px;
+        font-weight: bold;
+    }
+}
+
+.product-image {
+    max-width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-rating {
+    text-align: center;
+}
+
+// button {
+//     background: #52BFC2;
+//     font-size: 22px;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     color: #fff;
+//     &:hover {
+//         color: #001E60;
+//     }
+// }
+
+.rating {
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product-title {
+    color: #001E60;
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.product-sold-label {
+    background: #FEC601;
+    width: 120px;
+    height: 20px;
+    color: #001E60;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-price {
+    .regular-price {
+        font-size: 18px;
+        color: #829F9F;
+        text-decoration: line-through;
+    }
+    .sales-price {
+        font-family: "Montserrat", sans-serif;
+        color: #EA7317;
+        font-weight: bold;
+        display: flex;
+        
+        align-items: flex-start;
+        margin-top: -20px;
+
+        .currency, .cents {
+            font-size: 25px;
+           
+        }
+        .value {
+            font-size: 55px;
+        }
+        .currency {
+            margin-right: 5px;
+            align-self: flex-end;
+            margin-bottom: 13px;
+        }
+        .cents {
+            margin-top: 12px;
+        }
+    }
+}

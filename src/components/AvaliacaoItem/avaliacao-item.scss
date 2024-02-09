@@ -1,0 +1,42 @@
+.avaliacao-item {
+    + * {
+        margin-top: 40px;
+    }
+}
+
+.avaliacao-item--titulo {
+    font-size: 16px;
+    color: #001E60;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.avaliacao-item--descricao {
+    font-size: 16px;
+}
+
+.avaliacao-item--descricao p {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.avaliacao-item--author {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    p {
+        margin-bottom: 0;
+        font-size: 10px;
+        &:first-child {
+            font-size: 16px;
+            color: #001E60;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+.avaliacao-item--author_image {
+    align-self: flex-start;
+    margin-right: 5px;
+}

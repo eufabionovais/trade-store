@@ -1,0 +1,51 @@
+.form-avaliacao {
+    .rating-wrapper {
+        border-bottom: solid 1px #C1C9DC;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: -35px;
+        margin-right: -35px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+        color: #013B7C;
+        max-width: 450px;
+        li {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .form-label {
+        margin-bottom: 0;
+        color: #001E60;
+    }
+    .rating-custom {
+        position: relative;
+        top: 4px;
+        .MuiRating-icon {
+            color: #F15B25;
+        }
+    }
+
+    .action-wrapper {
+        padding: 20px 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .btn-primary {
+        height: 60px;
+        color: #fff;
+        text-transform: uppercase;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-self: flex-end;        
+    }
+}

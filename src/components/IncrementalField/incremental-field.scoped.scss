@@ -1,0 +1,42 @@
+.incremental-field {
+    display: flex;
+    align-items: center;
+    border: solid 1px #52BFC2;
+    color: #001E60;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 20px;
+    height: 60px;
+    justify-content: space-between;
+    button {
+        border: none;
+        background: transparent;
+        font-weight: bold;
+        padding: 0 15px;
+        height: 100%;
+        color: #001E60;
+    }
+    .output {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        display: inline-flex;
+        padding: 0 20px;        
+        &:focus,
+        &:active {
+            border: none;
+            outline: none;
+        }
+    }
+    
+}
+
+[data-size=small] {
+    min-width: auto;
+    height: 40px;
+    padding: 0 5px;
+    button {
+        padding: 0 5px;
+    }
+}

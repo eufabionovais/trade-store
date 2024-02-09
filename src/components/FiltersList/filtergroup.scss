@@ -1,0 +1,32 @@
+.filters-group {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding: 25px 0 25px 30px;
+    
+    &:not(:last-child) {
+        border-bottom: solid 1px #C1C9DC;
+    }
+    .filters-group-title {
+        font-size: 22px;
+        color: #001E60;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .form-check{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .form-options-area {
+        max-height: 450px;
+        overflow: auto;
+    }
+    &[data-max-height='auto'] {
+        .form-options-area {
+
+            max-height: none;
+        }
+    }
+}

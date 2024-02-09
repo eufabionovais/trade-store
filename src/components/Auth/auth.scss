@@ -1,0 +1,62 @@
+.modal-header {
+    flex-direction: column;
+    border: none;
+    h5 {
+        font-weight: bold;
+        font-size: 25px;
+        color: #001E60;
+        margin: 20px 0;
+    }
+
+    .btn-close {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+}
+
+.login-link,
+.forgot-link {
+    border: none;
+    background: transparent;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.forgot-link {
+    color: #001E60;
+    display: block;
+    font-weight: bold;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.modal-body {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.modal-footer {
+    display: grid;
+    border: none;
+}
+
+.disclaimer {
+    text-align: center;
+    color: #001E60;
+    p {
+        margin-bottom: 0;
+    }
+    a {
+        font-weight: bold;
+        padding: 15px 0;
+        display: block;
+    }
+    .check {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+}
+
+

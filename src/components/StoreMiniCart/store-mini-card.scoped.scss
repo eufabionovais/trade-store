@@ -1,0 +1,45 @@
+.store-mini-cart-wrapper {
+
+    padding: 40px 20px;
+    border-bottom: solid 1px #C1C9DC;
+    .seller {
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.2;
+        span {
+            font-size: 16px;
+            color: #9DAFEE;
+            font-weight: bold;
+            display: block;
+        }
+    }
+
+    .store-subtotal {
+        background: #E6EAF8;
+        border-radius: 10px;
+        padding: 18px;
+        margin-top: 25px;
+        color: #001E60;
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: bold;
+            font-family: "Montserrat", sans-serif;
+        }
+        p {
+            font-size: 14px;
+            a {
+                text-decoration: underline !important;
+                color: #001E60;
+            }
+        }
+        // .minimum-order{
+        //     height: 15px;
+        //     background-color: #fff;
+        //     .progress-bar {
+        //         background: #001E60 !important;
+        //     }
+        // }
+    }
+}
